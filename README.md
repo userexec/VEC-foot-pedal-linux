@@ -30,7 +30,7 @@ Scan codes can be found using `sudo evtest` then selecting the device number for
 Event: time 1692309275.649421, type 4 (EV_MSC), code 4 (MSC_SCAN), value 90002
 ```
 
-To find supported key codes, check `/usr/include/linux/input-event-codes.h`. The foot pedal's scan code should be assignable to any key code.
+To find supported key codes, check `/usr/include/linux/input-event-codes.h`. The foot pedal's scan code should be assignable to any key code. Note that the key codes in this file are preceded by KEY_ and in all caps. The key code needed is *only the part after KEY_, converted to lowercase* (e.g. KEY_LEFTMETA becomes leftmeta).
 
 ## Assigning scripted actions to the key combinations
 
