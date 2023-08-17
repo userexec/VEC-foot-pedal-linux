@@ -2,6 +2,9 @@
 
 **A collection of udev rules and helpful scripts for Linux users**
 
+![VEC foot pedal](https://github.com/userexec/VEC-foot-pedal-linux/assets/5970137/c837d3eb-a117-4eee-b6d2-9e2c99e2cbd1)
+
+
 ## Recognizing the foot pedal
 
 To use the VEC foot pedal, first install the udev rules for this device so that it's recognized when plugged in. The VEC foot pedal does not work by default under Linux. In Ubuntu, these rules should be placed at the following locations:
