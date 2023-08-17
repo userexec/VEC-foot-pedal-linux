@@ -42,4 +42,6 @@ For scripted interactions when pressing the foot pedal, assign the appropriate s
   - `activetoprev.sh` - moves the active window to the previous workspace and changes to that workspace
   - `toggleoverview.sh` - activates the overview, same as pressing the Super key in GNOME
 
-Note that `toggleoverview.sh` should not be assigned if you're just using this project's udev rules as written--the hwdb rules specify KEYBOARD_KEY_90001 as leftmeta, so it's set to be the Super key by default. Only assign a keyboard shortcut to `toggleoverview.sh` if you're changing your pedal's key assignment in `90-vec-usb-footpedal.hwdb`.
+Note that `toggleoverview.sh` is specific to GNOME and should not be assigned if you're just using this project's udev rules as written--the hwdb rules specify KEYBOARD_KEY_90001 as leftmeta, so it's set to be the Super key by default. Only assign a keyboard shortcut to `toggleoverview.sh` if you're changing your pedal's key assignment in `90-vec-usb-footpedal.hwdb`.
+
+The other scripts rely on `wmctrl`.
