@@ -2,6 +2,8 @@
 
 **A collection of udev rules and helpful scripts for Linux users**
 
+All credit for this solution goes to A. Cynic from [The Cat's Whisker](https://catswhisker.xyz/) for their excellent post [Use VEC/Infinity USB Foot Pedal as a Keyboard Under Linux](https://catswhisker.xyz/log/2018/8/27/use_vecinfinity_usb_foot_pedal_as_a_keyboard_under_linux/) and [Gabor Karsay](https://github.com/gkarsay) for an [enlightening answer](https://github.com/gkarsay/parlatype/issues/28#issuecomment-356307490) under [Parlatype](https://github.com/gkarsay/parlatype/)'s discussion page. I'm merely gathering these resources here so I don't have to re-read and reconstruct the whole process every time I fry a machine ;)
+
 ![VEC foot pedal](https://github.com/userexec/VEC-foot-pedal-linux/assets/5970137/c837d3eb-a117-4eee-b6d2-9e2c99e2cbd1)
 
 
