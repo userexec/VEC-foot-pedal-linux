@@ -47,3 +47,5 @@ For scripted interactions when pressing the foot pedal, assign the appropriate s
 Note that `toggleoverview.sh` is specific to GNOME and should not be assigned if you're just using this project's udev rules as written--the hwdb rules specify KEYBOARD_KEY_90001 as leftmeta, so it's set to be the Super key by default. Only assign a keyboard shortcut to `toggleoverview.sh` if you're changing your pedal's key assignment in `90-vec-usb-footpedal.hwdb`.
 
 The other scripts rely on `wmctrl`.
+
+I personally like left pedal assigned to Super, middle to previous workspace, and right to next workspace, then chorded combinations of left-middle to move the active window to previous and left-right to move active window to next. This handles most workspace tasks without ever needing to press a key.
