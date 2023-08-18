@@ -14,6 +14,8 @@ To use the VEC foot pedal, first install the udev rules for this device so that 
   - /etc/udev/rules.d/10-vec-usb-footpedal.rules
   - /etc/udev/hwdb.d/90-vec-usb-footpedal.hwdb
 
+If the foot pedal is already plugged in, now's the time to unplug and replug.
+
 ## Changing the key assignments
 
 The VEC foot pedal has three pedals on it. These are mapped to keys in `90-vec-usb-footpedal.hwdb`.
